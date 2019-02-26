@@ -1,0 +1,28 @@
+body{
+    background-color:#BD1616;
+}
+
+nav{
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.nav-item{
+    background-color:yellow ;
+}
+
+.nav-item:hover{
+    background-color:gray;
+}
+
+header{
+    background-image:url(https://d0bb9bb29a4a152db5cb-2fd7b88453b021537812277c8c433fcb.ssl.cf1.rackcdn.com/433/1/large.jpg);
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+}
+    
+header p{
+    font-style: italic;
+}
