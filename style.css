@@ -1,28 +1,75 @@
-body{
-    background-color:#BD1616;
+body {
+    background-color: #BD1616;
 }
 
-nav{
+nav {
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif;
 
 }
 
-.nav-item{
-    background-color:yellow ;
+.nav-item {
+    background-color: yellow;
 }
 
-.nav-item:hover{
-    background-color:gray;
+.nav-item:hover {
+    background-color: gray;
 }
 
-header{
-    background-image:url(https://d0bb9bb29a4a152db5cb-2fd7b88453b021537812277c8c433fcb.ssl.cf1.rackcdn.com/433/1/large.jpg);
+header {
+    background-image: url(https://d0bb9bb29a4a152db5cb-2fd7b88453b021537812277c8c433fcb.ssl.cf1.rackcdn.com/433/1/large.jpg);
     text-align: center;
     height: 600px;
     background-size: cover;
 }
-    
-header p{
+
+header p {
     font-style: italic;
+}
+
+.services i {
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #5bc0de;
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*Changes the roundness of the container*/
+    border-radius: 50%
+}
+
+.services span {
+    width: 200px;
+    display: inline-block;
+}
+
+.position {
+    background-color: pink;
+}
+
+.team img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.contacts .input-group {
+    margin-bottom: 10px;
+}
+
+.contacts i {
+    padding: 17px;
+}
+
+.contacts button{
+    width: 540px;
+}
+
+.contacts textarea{
+    height:50px;
 }
